@@ -2,6 +2,7 @@ void Init_LCD(void)
 {
   Serial.print("Initialize LCD...");
   lcd.begin();
+  lcd.backlight();
   Serial.println("done.");
 }
 

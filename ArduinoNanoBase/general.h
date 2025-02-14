@@ -56,7 +56,7 @@ static const unsigned char PROGMEM logo_bmp[] =
   0b00000000, 0b00110000 };
 
 
-#define MAIN_TIME   500   //ms
+#define MAIN_TIME   1000   //ms
 int new_time, old_time;
 
 #define SLEEP_DELAY 1     // debug
