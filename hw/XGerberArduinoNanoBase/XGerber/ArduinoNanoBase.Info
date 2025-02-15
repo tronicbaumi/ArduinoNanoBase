@@ -1,0 +1,34 @@
+CAM-Ausgabe für Projekt / CAM Output for Project ArduinoNanoBase.T3001
+Ausgabe am / Output Date 18. Dec 2024, 11:09h
+Projekt erzeugt mit / Project created with TARGET 33.2.0.9 smart
+Ausgabe erzeugt mit / Output created with TARGET 3001! V33.2.0.9
+Lieferanschrift / Delivery address:
+  
+  
+  
+  D- 
+  Tel: 
+  FAX: 
+  eMail: 
+Größe der Platine / Size of PCB: 70 mm x 50 mm
+Dicke der Platine / Thickness of PCB: 1.6 mm
+KupferDicke / Copper thickness: 35 µm
+
+Beschreibung der erzeugten Dateien / Description of generated files:
+
+ArduinoNanoBase.Top = 16 = Kupfer oben / Copper top L1   ( *.Top )
+ArduinoNanoBase.Bot = 2 = Kupfer unten / Copper bottom L2   ( *.Bot )
+ArduinoNanoBase.Tool = Bohrerliste / Drill tool list
+ArduinoNanoBase.Drill = Durchkontaktierte Bohrungen / Plated through drills
+ArduinoNanoBase.Hole = Nicht-durchkontaktierte Bohrloecher / Non plated through drills
+ArduinoNanoBase.Outline = 23 = Platinen-Umriss / PCB outline   ( *.Outline )
+ArduinoNanoBase.StopTop = 18 = Lötstoppmaske oben / Solder stop top   ( *.StopTop )
+ArduinoNanoBase.StopBot = 4 = Lötstoppmaske unten / Solder stop bottom   ( *.StopBot )
+ArduinoNanoBase.PosiTop = 21 = Bestückungsdruck oben / Silk screen top   ( *.PosiTop )
+ArduinoNanoBase.PasteTop = 19 = Lötpaste oben / Paste top   ( *.PasteTop )
+ArduinoNanoBase.Mill = 25 = Fräsen/ Milling   ( *.Mill )
+ArduinoNanoBase_BOM.xlsx = BOM / Bill Of Material (JLCPCB)
+ArduinoNanoBase_CPL.xlsx = CPL / Component Placement List (JLCPCB)
+
+
+Achtung: Dünnste Bahn (Track too thin) ist kleiner 0.150mm: (0.127 bei 31.90875 | 6.4516) auf Ebene 21
