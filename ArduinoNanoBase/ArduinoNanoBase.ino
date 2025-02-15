@@ -42,6 +42,13 @@ void setup()
   Init_LED();
   Init_BTN();
   Init_LCD();
+
+    lcd.clear();    
+    lcd.setCursor(0, 0);
+    lcd.print("Spargewater");
+    lcd.setCursor(0, 1);
+    lcd.print("ChB 2025 (c)");
+
   Init_DS18B20();
   Init_LoadCell();
 
@@ -74,10 +81,7 @@ void loop()
     #ifdef UART
       Serial.print("Gewicht: ");Serial.println(value2char);
     #endif
-    lcd.clear();    
-    lcd.setCursor(0, 0);
-    lcd.print("Liter...");
-    lcd.print(weight);
+
 
     sensors.requestTemperatures(); // Send the command to get temperatures
     tempDS18B20 = sensors.getTempCByIndex(0);
@@ -100,9 +104,17 @@ void loop()
       #endif
       tempDS18B20 = -100;
     }
+    lcd.clear();    
+    lcd.setCursor(0, 0);
+    lcd.print("Liter..");
+    lcd.print(weight);
+    lcd.print(" l");
     lcd.setCursor(0, 1);
-    lcd.print("Temp....");
+    lcd.print("Temp...");
     lcd.print(tempDS18B20);
+    lcd.print(" ");
+    lcd.write(0xDF);
+    lcd.print("C");
 
     
   }
