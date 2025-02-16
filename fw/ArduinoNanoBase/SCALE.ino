@@ -26,7 +26,7 @@ void Init_LoadCell(void)
   Serial.println(scale.get_units(5), 1);	// print the average of 5 readings from the ADC minus tare weight (not set) divided
 						// by the SCALE parameter (not set yet)
 
-  scale.set_scale(2280.f);                      // this value is obtained by calibrating the scale with known weights; see the README for details
+  scale.set_scale(1908.f);                      // this value is obtained by calibrating the scale with known weights; see the README for details
   scale.tare();				        // reset the scale to 0
 
   Serial.println("After setting up the scale:");

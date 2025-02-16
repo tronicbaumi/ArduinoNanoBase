@@ -66,7 +66,7 @@ void loop()
   {
     old_time = new_time;
   
-    weight = weightfactor*scale.get_units(10);
+    weight = weightfactor*scale.get_units(20);
     //Serial.print("weight float");Serial.println(weight);
      if(!digitalRead(SW1))
      {
